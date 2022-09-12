@@ -36,3 +36,6 @@ export type ColorMapFunction<T> = (color: string) => T;
 export type ColorConvertFunction<ColorMapIn extends ColorMap, ColorMapOut> = (
   colorMap: ColorMapIn
 ) => ColorMapOut;
+export type ColorConvertToCssFunction<T extends ColorMap> = (
+  colorMap: T
+) => string;
