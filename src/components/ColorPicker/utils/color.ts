@@ -8,6 +8,8 @@ import type {
   ColorConvertToCssFunction,
 } from "@/components/ColorPicker/types";
 
+// REFERENCE: https://css-tricks.com/converting-color-spaces-in-javascript/
+
 export const decToHex = (num: number) => {
   const hexed = num.toString(16);
   return hexed.length === 1 ? `${0}${hexed}` : `${hexed}`;
