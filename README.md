@@ -12,3 +12,7 @@
 ### `Concerns`
 
 - 다른 오픈소스는 왜 `Canvas` 대신 `CSS Gradient`를 사용했을까?
+
+### `References`
+
+- [converting-color-spaces-in-javascript](https://css-tricks.com/converting-color-spaces-in-javascript/)
